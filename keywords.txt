@@ -1,0 +1,197 @@
+#######################################
+# Syntax Coloring Map SD
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Spanish	KEYWORD1		DATA_TYPE
+Serie	KEYWORD1	Serial	DATA_TYPE
+Teclado	KEYWORD1		DATA_TYPE
+Raton	KEYWORD1		DATA_TYPE
+
+#########################################################
+# Methods, Functions and conditional operator (KEYWORD2)
+#########################################################
+igual	KEYWORD2		RESERVED_WORD_2
+igualQue	KEYWORD2		RESERVED_WORD_2
+esIgualQue	KEYWORD2		RESERVED_WORD_2
+distinto	KEYWORD2		RESERVED_WORD_2
+distintoQue	KEYWORD2		RESERVED_WORD_2
+esDistintoQue	KEYWORD2		RESERVED_WORD_2
+esDistintoDe	KEYWORD2		RESERVED_WORD_2
+menor	KEYWORD2		RESERVED_WORD_2
+menorQue	KEYWORD2		RESERVED_WORD_2
+esMenorQue	KEYWORD2		RESERVED_WORD_2
+mayor	KEYWORD2		RESERVED_WORD_2
+mayorQue	KEYWORD2		RESERVED_WORD_2
+esMayorQue	KEYWORD2		RESERVED_WORD_2
+mayorIgual	KEYWORD2		RESERVED_WORD_2
+mayorIgualQue	KEYWORD2		RESERVED_WORD_2
+esMayorIgualQue	KEYWORD2		RESERVED_WORD_2
+menorIgual	KEYWORD2		RESERVED_WORD_2
+menorIgualQue	KEYWORD2		RESERVED_WORD_2
+esMenorIgualQue	KEYWORD2		RESERVED_WORD_2
+hasta	KEYWORD2		RESERVED_WORD_2
+
+configurarPin	KEYWORD2	PinMode
+lecturaDigital	KEYWORD2	DigitalRead
+escrituraDigital	KEYWORD2	DigitalWrite
+lecturaAnalogica	KEYWORD2	AnalogRead
+escrituraAnalogica	KEYWORD2	DigitalRead
+
+pausa	KEYWORD2	Delay
+pausaMicrosegundos	KEYWORD2	DelayMicroseconds
+milisegundosPasados	KEYWORD2	Millis
+microsegundosPasados	KEYWORD2	Micros
+
+valorAbsoluto	KEYWORD2	Abs
+restringir	KEYWORD2	Constrain
+mapear	KEYWORD2	Map
+maximo	KEYWORD2	Max
+minimo	KEYWORD2	Min
+potencia	KEYWORD2	Pow
+raizCuadrada	KEYWORD2	Sqrt
+
+coseno	KEYWORD2	Cos
+seno	KEYWORD2	Sin
+tangente	KEYWORD2	Tan
+
+esLetra	KEYWORD2
+esAlfaNumerico	KEYWORD2
+esAscii	KEYWORD2
+esControl	KEYWORD2
+esDigito	KEYWORD2
+esGrafico	KEYWORD2
+esDigitoHexadecimal	KEYWORD2
+esMinuscula	KEYWORD2
+estaEnMinuscula	KEYWORD2
+esMayuscula	KEYWORD2
+estaEnMayuscula	KEYWORD2
+esImprimible	KEYWORD2
+esPuntuacion	KEYWORD2
+esEspacio	KEYWORD2
+esEspacioEnBlanco	KEYWORD2
+
+alAzar	KEYWORD2
+semillaAlAzar	KEYWORD2
+
+borrarBit	KEYWORD2	BitClear
+setearBit	KEYWORD2	BitSet
+leerBit	KEYWORD2	BitRead
+escribirBit	KEYWORD2	BitWrite
+byteAlto	KEYWORD2	HighByte
+byteBajo	KEYWORD2	LowByte
+
+configurarInterrupcion	KEYWORD2	AttachInterrupt
+pinDigitalAInterrumpir	KEYWORD2	DigitalPinToInterrupt
+desconfigurarInterrupcion	KEYWORD2	DetachInterrupt
+
+disponible	KEYWORD2	Serial_Available
+comenzar	KEYWORD2	Serial_Begin
+terminar	KEYWORD2	Serial_End
+leer	KEYWORD2	Serial_Read
+escribir	KEYWORD2
+imprimir	KEYWORD2	Serial_Print
+imprimirLinea	KEYWORD2	Serial_Println
+eventoDeSerie	KEYWORD2
+
+medio	KEYWORD2
+buscar	KEYWORD2
+buscarHasta	KEYWORD2
+leerBytes	KEYWORD2
+leerBytesHasta	KEYWORD2
+leerTexto	KEYWORD2
+leerTextoHasta	KEYWORD2
+obtenerEntero	KEYWORD2
+obtenerDecimal	KEYWORD2
+setearTiempoLimite	KEYWORD2
+
+presionar	KEYWORD2
+mantener	KEYWORD2
+mantenerTodas	KEYWORD2
+
+esaPresionado	KEYWORD2
+
+#######################################
+# Palabras Clave Arduino (KEYWORD3)
+#######################################
+Configurar	KEYWORD3	Setup	RESERVED_WORD
+Repetir	KEYWORD3	Loop	RESERVED_WORD
+
+devolver	KEYWORD3	Return	RESERVED_WORD
+finPrograma	KEYWORD3	Return	RESERVED_WORD
+salirBucle	KEYWORD3	Break	RESERVED_WORD
+romper	KEYWORD3	Break	RESERVED_WORD
+continuar	KEYWORD3	Continue	RESERVED_WORD
+irHacia	KEYWORD3		RESERVED_WORD
+
+No	KEYWORD3	If	RESERVED_WORD
+no	KEYWORD3	If	RESERVED_WORD
+loContrarioA	KEYWORD3	If	RESERVED_WORD
+Y	KEYWORD3	If	RESERVED_WORD
+O	KEYWORD3	If	RESERVED_WORD
+
+Si	KEYWORD3	If	RESERVED_WORD
+si	KEYWORD3	If	RESERVED_WORD
+Sino	KEYWORD3	Else	RESERVED_WORD
+sino	KEYWORD3	Else	RESERVED_WORD
+Mientras	KEYWORD3	While	RESERVED_WORD
+mientras	KEYWORD3	While	RESERVED_WORD
+para	KEYWORD3	For	RESERVED_WORD
+Para	KEYWORD3	For	RESERVED_WORD
+Hacer	KEYWORD3	DoWhile	RESERVED_WORD
+Elegir	KEYWORD3	SwitchCase	RESERVED_WORD
+caso	KEYWORD3	SwitchCase	RESERVED_WORD
+Caso	KEYWORD3	SwitchCase	RESERVED_WORD
+porDefecto	KEYWORD3	SwitchCase	RESERVED_WORD
+
+definir	KEYWORD3		PREPROCESSOR
+
+bucleInfinito	KEYWORD3	While	RESERVED_WORD
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+APAGADO	LITERAL1	Constants	RESERVED_WORD_2
+BAJO	LITERAL1	Constants	RESERVED_WORD_2
+ENCENDIDO	LITERAL1	Constants	RESERVED_WORD_2
+PRENDIDO	LITERAL1	Constants	RESERVED_WORD_2
+ALTO	LITERAL1	Constants	RESERVED_WORD_2
+SALIDA	LITERAL1	Constants	RESERVED_WORD_2
+ENTRADA	LITERAL1	Constants	RESERVED_WORD_2
+ENTRADA_PULLUP	LITERAL1	Constants	RESERVED_WORD_2
+
+Vacio	LITERAL1	Void	RESERVED_WORD_2
+Entero	LITERAL1	Int	RESERVED_WORD_2
+Caracter	LITERAL1	Char	RESERVED_WORD_2
+Decimal	LITERAL1	Float	RESERVED_WORD_2
+Logico	LITERAL1	BooleanVariables	RESERVED_WORD_2
+Largo	LITERAL1	Long	RESERVED_WORD_2
+Corto	LITERAL1		RESERVED_WORD_2
+sinSigno	LITERAL1		RESERVED_WORD_2
+Texto	LITERAL1	String	RESERVED_WORD_2
+Cadena	LITERAL1	String	RESERVED_WORD_2
+Constante	LITERAL1	Const	RESERVED_WORD_2
+Estatico	LITERAL1	Static	RESERVED_WORD_2
+Volatil	LITERAL1	Volatile	RESERVED_WORD_2
+
+VERDAD	LITERAL1		LITERAL_BOOLEAN
+VERDADERO	LITERAL1		LITERAL_BOOLEAN
+MENTIRA	LITERAL1	Constants	LITERAL_BOOLEAN
+FALSO	LITERAL1	Constants	LITERAL_BOOLEAN
+
+esVerdad	LITERAL1	Constants	LITERAL_BOOLEAN
+esFalso	LITERAL1	Constants	LITERAL_BOOLEAN
+noEsVerdad	LITERAL1	Constants	LITERAL_BOOLEAN
+noEsFalso	LITERAL1	Constants	LITERAL_BOOLEAN
+
+CUANDO_CAMBIA	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+CAMBIO	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+CUANDO_CRECE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+CRECIENTE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+CUANDO_DECRECE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+DECRECIENTE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
+
+
