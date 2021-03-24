@@ -25,7 +25,7 @@ Vacio Repetir(){
 * **Corto**								como [**short**](https://www.arduino.cc/reference/en/language/variables/data-types/short/)  
 * **sinSigno**							como [**unsigned**](https://www.arduino.cc/reference/en/language/variables/data-types/unsignedint/)  
 * **Texto**/**Cadena**					como [**String**](https://www.arduino.cc/reference/en/language/variables/data-types/stringobject/)  
-* **Clase**								como [**class**]()  
+* **Clase**								como [**class**](https://www.arduino.cc/en/Tutorial/HomePage)  
 
 ### Calificadores de variables
 * **Constante**							como [**const**](https://www.arduino.cc/reference/en/language/variables/variable-scope-qualifiers/const/)  
@@ -85,12 +85,17 @@ Para(Entero i es 0, i hasta 10, incrementar i){
 * **mayor**/**mayorQue**/**esMayorQue**					como [**>**](https://www.arduino.cc/reference/en/language/structure/comparison-operators/greaterthan/)  
 * **menorIgual**/**menorIgualQue**/**esMenorIgualQue**	como [**<=**](https://www.arduino.cc/reference/en/language/structure/comparison-operators/lessthanorequalto/)  
 * **mayorIgual**/**mayorIgualQue**/**esMayorIgualQue**	como [**>=**](https://www.arduino.cc/reference/en/language/structure/comparison-operators/greaterthanorequalto/)  
-* **esVerdad**											como [**== true**]()  
-* **esFalso**											como [**== false**]()  
-* **noEsVerdad**										como [**!= true**]()  
-* **noEsFalso**											como [**!= false**]()  
+* **esVerdad**											como [**== true**](https://www.arduino.cc/en/Tutorial/HomePage)  
+* **esFalso**											como [**== false**](https://www.arduino.cc/en/Tutorial/HomePage)  
+* **noEsVerdad**										como [**!= true**](https://www.arduino.cc/en/Tutorial/HomePage)  
+* **noEsFalso**											como [**!= false**](https://www.arduino.cc/en/Tutorial/HomePage)  
 * **hasta**												como [**!=**](https://www.arduino.cc/reference/en/language/structure/comparison-operators/notequalto/)  
 
 ### Facilidades
-* **finPrograma**						como [**return 0;**]()  
-* **definir**							como [**const int**]()  
+* **finPrograma**						como [**return 0;**](https://www.arduino.cc/en/Tutorial/HomePage)  
+* **definir**							como [**const**](https://www.arduino.cc/reference/en/language/variables/variable-scope-qualifiers/const/) [**int**](https://www.arduino.cc/reference/en/language/variables/data-types/int/)
+
+### Nuevas Funciones
+
+
+### Funciones
