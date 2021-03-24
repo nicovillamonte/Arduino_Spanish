@@ -98,7 +98,7 @@ Para(Entero i es 0, i hasta 10, incrementar i){
 Logico var1 es VERDAD, var2 es FALSO;
 Si(var1 esVerdad Y var2 noEsVerdad){
 	//Codigo
-} sino si(var1 igual FALSO O no ){
+} sino si(var1 igual FALSO O no var2){
 	//Codigo
 } sino {
 	//Codigo
