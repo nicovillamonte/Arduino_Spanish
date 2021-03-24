@@ -90,6 +90,20 @@ Para(Entero i es 0, i hasta 10, incrementar i){
 * **noEsVerdad**										como [**!= true**](https://www.arduino.cc/en/Tutorial/HomePage)  
 * **noEsFalso**											como [**!= false**](https://www.arduino.cc/en/Tutorial/HomePage)  
 * **hasta**												como [**!=**](https://www.arduino.cc/reference/en/language/structure/comparison-operators/notequalto/)  
+* **Y**													como [**and / &&**](https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicaland/)  
+* **O**													como [**or / ||**](https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicalor/)  
+* **No**/**no**											como [**not / !**](https://www.arduino.cc/reference/en/language/structure/boolean-operators/logicalnot/)  
+
+```cpp
+Logico var1 es VERDAD, var2 es FALSO;
+Si(var1 esVerdad Y var2 noEsVerdad){
+	//Codigo
+} sino si(var1 igual FALSO O no ){
+	//Codigo
+} sino {
+	//Codigo
+}
+```
 
 ### Facilidades
 * **finPrograma**						como [**return 0;**](https://www.arduino.cc/en/Tutorial/HomePage)  
