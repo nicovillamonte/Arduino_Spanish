@@ -59,6 +59,12 @@ Vacio Repetir(){
 * **devolver**							como [**return**](https://www.arduino.cc/reference/en/language/structure/control-structure/return/)  
 * **irHacia**							como [**goto**](https://www.arduino.cc/reference/en/language/structure/control-structure/goto/)  
 
+```cpp
+Para(Entero i es 0, i hasta 10, incrementar i){
+  //Codigo del bucle
+}
+```
+
 ### Operadores de Asignación
 * **es**								como [**=**](https://www.arduino.cc/reference/en/language/structure/arithmetic-operators/assignment/)  
 * **en** (Para definiciones de pines)	como [**=**](https://www.arduino.cc/reference/en/language/structure/arithmetic-operators/assignment/)  
