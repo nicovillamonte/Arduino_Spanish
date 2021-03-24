@@ -24,6 +24,9 @@ void leerPin(int _pin = 13);
 //Serial
 void imprimirEnPantalla(String text = "", char end = NUEVA_LINEA);
 
+//Otros
+void pausa(float _segundos);
+
 
 
 #endif

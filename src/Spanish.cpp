@@ -17,7 +17,7 @@ void leerPin(int _pin = 13){
 	Serial.end();
 }
 
-void imprimirEnPantalla(String text, char end = NUEVA_LINEA){
+void imprimirEnPantalla(String text, int end = 0){
 	Serial.begin(9600);
 	if(end == NUEVA_LINEA) Serial.println(text);
 	else{
@@ -26,4 +26,8 @@ void imprimirEnPantalla(String text, char end = NUEVA_LINEA){
 	}
 	
 	Serial.end();
+}
+
+void pausa(float _segundos){
+	delay(_segundos*1000);
 }

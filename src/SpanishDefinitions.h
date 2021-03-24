@@ -27,7 +27,7 @@
 #define     Entero          int
 #define     Caracter        char
 #define     Decimal         float
-#define     Logico          boolean
+#define     Logico          bool
 #define     Largo           long
 #define     Corto           short
 #define     sinSigno        unsigned
@@ -58,6 +58,9 @@
 #define     Constante       const
 #define     Estatico        static
 #define     Volatil         volatile
+#define		Clase			class
+
+#define		tamanioDe		sizeOf
 
 //Valores
 #define     VERDAD          true
@@ -77,6 +80,10 @@
 //Operadores aritmeticos
 #define     incrementar     ++
 #define     decrementar     --
+#define     sumar     		+=
+#define     restar     		-=
+#define     multiplicar 	*=
+#define     dividir 		/=
 //Operadores Condicionales
 #define     igual           ==
 #define     distinto        !=
@@ -133,7 +140,7 @@
 #define     lecturaAnalogica        analogRead
 #define     escrituraAnalogica      analogWrite
 //  Time
-#define     pausa                   delay
+//#define     pausa                   delay
 #define     pausaMicrosegundos      delayMicroseconds
 #define     milisegundosPasados     millis
 #define     microsegundosPasados    micros
@@ -217,3 +224,4 @@
 ///FACILIDADES
 #define     Para(INICIO,MIENTRAS,PASOS)     for(INICIO;MIENTRAS;PASOS)
 #define     bucleInfinito                   while(1)
+#define		LED_INTEGRADO					LED_BUILTIN
