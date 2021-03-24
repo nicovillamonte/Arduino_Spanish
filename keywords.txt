@@ -14,6 +14,11 @@ Raton	KEYWORD1		DATA_TYPE
 #########################################################
 # Methods, Functions and conditional operator (KEYWORD2)
 #########################################################
+en	KEYWORD2
+es	KEYWORD2
+incrementar	KEYWORD2
+decrementar	KEYWORD2
+
 igual	KEYWORD2		RESERVED_WORD_2
 igualQue	KEYWORD2		RESERVED_WORD_2
 esIgualQue	KEYWORD2		RESERVED_WORD_2
@@ -114,6 +119,11 @@ mantenerTodas	KEYWORD2
 
 esaPresionado	KEYWORD2
 
+encenderPin	KEYWORD2
+apagarPin	KEYWORD2
+leerPin	KEYWORD2
+imprimirEnPantalla	KEYWORD2
+
 #######################################
 # Palabras Clave Arduino (KEYWORD3)
 #######################################
@@ -194,4 +204,6 @@ CRECIENTE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
 CUANDO_DECRECE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
 DECRECIENTE	LITERAL1	AttachInterrupt	RESERVED_WORD_2
 
+NADA	LITERAL1	Constants	RESERVED_WORD_2
+NUEVA_LINEA	LITERAL1	Constants	RESERVED_WORD_2
 
