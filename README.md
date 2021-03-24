@@ -4,7 +4,7 @@
 
 ## Version 1.0.0 (Reference)
 ### Estructura
-Las funciones *setup* y *loop* se traducen como:
+Las funciones [*setup*](https://www.arduino.cc/reference/en/language/structure/sketch/setup/) (**Configurar**) y [*loop*](https://www.arduino.cc/reference/en/language/structure/sketch/loop/) (**Repetir**) se traducen como:
 ```cpp
 Vacio Configurar(){
   //Codigo de configuracion
