@@ -148,6 +148,7 @@
 #define     valorAbsoluto           abs
 #define     restringir              constrain
 #define     mapear                  map
+#define     mapeo                  	map
 #define     maximo                  max
 #define     minimo                  min
 #define     potencia                pow
@@ -225,3 +226,13 @@
 #define     Para(INICIO,MIENTRAS,PASOS)     for(INICIO;MIENTRAS;PASOS)
 #define     bucleInfinito                   while(1)
 #define		LED_INTEGRADO					LED_BUILTIN
+#define 	SEGUNDOS 						*1000
+#define 	MILISEGUNDOS 					*1
+#define 	MICROSEGUNDOS 					/1000
+#define 	MINUTOS 						*60000
+#define 	HORAS							*3600000
+#define 	SEGUNDO 						*1000
+#define 	MILISEGUNDO 					*1
+#define 	MICROSEGUNDO 					/1000
+#define 	MINUTO	 						*60000
+#define 	HORA							*3600000
